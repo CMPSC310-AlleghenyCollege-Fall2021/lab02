@@ -70,6 +70,7 @@ In this two-week lab students are invited to implement a learning agent using an
 
 - Your project should be implemented in Python.
 - You should use OpenCV and possibly sklearn library.
+- A visual output should be produced as one runs your project.
 - While your project should be based on an existing project, it should NOT be just a copy of an existing project (for example, a class program or an online tutorial).
 - You must include references to all resources used in your report as links to online resources or by specifying activity number or reading resource if using class resources.
 - You must include and specify all the steps needed to successfully run your program(s). This include installation instructions or docker set up, depending on how you prefer the user run your tool.
