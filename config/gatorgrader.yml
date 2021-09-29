@@ -17,7 +17,7 @@ indent: 4
 # --> check the technical writing for various characteristics
 writing/report.md:
     ConfirmFileExists
-    CountFileWords --count 200
+    CountFileWords --count 250
     CountMarkdownTags --tag "heading" --count 7 --exact
     #CountMarkdownTags --tag "code" --count 3 --exact
     #CountMarkdownTags --tag "code_block" --count 1 --exact
