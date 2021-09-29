@@ -18,7 +18,7 @@ indent: 4
 writing/report.md:
     ConfirmFileExists
     CountFileWords --count 250
-    CountMarkdownTags --tag "heading" --count 7 --exact
+    CountMarkdownTags --tag "heading" --count 9 --exact
     #CountMarkdownTags --tag "code" --count 3 --exact
     #CountMarkdownTags --tag "code_block" --count 1 --exact
     CountMarkdownTags --tag "list" --count 1
