@@ -13,7 +13,7 @@ Describe the methodology used for your learning agent (algorithms, the goals of 
 ## Experimental Analysis
 
 TODO:
-Describe the performance metrics for different environment settings (different images or positionings of the camera). Also, discuss the accuracy of the performance of the algorithm for your application.
+Describe the performance metrics for different environment settings (different images or positions of the camera). Also, discuss the accuracy of the performance of the algorithm for your application.
 
 ## Challenges and Learning Experiences
 

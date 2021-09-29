@@ -14,10 +14,6 @@ indent: 4
 # --> checks below a file in a specified directory are for that specific file and directory
 # --> checks that appear stand-alone are for an entire Git repository
 
-# --> check the source code for various characteristics
-src/*.py:
-    ConfirmFileExists
-
 # --> check the technical writing for various characteristics
 writing/report.md:
     ConfirmFileExists

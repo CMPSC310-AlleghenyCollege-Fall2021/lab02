@@ -40,7 +40,7 @@
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this repository contains the starter files for Laboratory 2 assignment in Computer Science 310.
 
-This laboratory assignment invites you to work in a team of two or three to implement a learning agent for an object detection application. You are also responsible for writing a detailed report, stored in the file `writing/reflection.md`. This is a Markdown file that must adhere to the standards described in the [Markdown Syntax Guide](https://guides.github.com/features/mastering-markdown/).
+This laboratory assignment invites you to work in a team of two or three to implement a learning agent for an object detection application. You are also responsible for writing a detailed report, stored in the file `writing/report.md`. This is a Markdown file that must adhere to the standards described in the [Markdown Syntax Guide](https://guides.github.com/features/mastering-markdown/).
 
 ## Objectives
 
