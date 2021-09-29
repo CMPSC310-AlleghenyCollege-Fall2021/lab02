@@ -104,7 +104,7 @@ This assignment invites you to submit the following deliverables through your te
 
 The grade that a student receives on this assignment will have the following components.
 
-- **GitHub Actions CI Build Status [up to 10%]:**: For lab02 repository associated with this assignment students will receive a checkmark grade if their last before-the-deadline build passes.
+- **GitHub Actions CI Build Status [up to 10%]:**: For lab02 repository associated with this assignment students will receive a checkmark grade if their last before-the-deadline build passes. This is only checking some baseline writing and commit requirements. A reduction maybe given if the commit log shows a cluster of commits at the end clearly used just to pass this requirement. All other requirements are evaluated manually.
 
 - **Mastery of Verbal Explanation during Demonstration [up to 15%]:**: Since the timely project development and the ability to communicate technical details of a project is crucial to building successful software applications, a portion of students' lab grade will be determined based on the quality of the project demonstration.
 
@@ -166,24 +166,18 @@ docker run -it --rm --name dockagator -v "%cd%":/project -v "C:\Users\user/.dock
 
 Once you have typed this command, you can use the [GatorGrader tool](https://github.com/GatorEducator/gatorgrader) in the Docker container by typing the command `gradle grade` in your terminal.
 
-## Automated Checks with GatorGrader
+## Automated Writing and Commit Checks with GatorGrader
 
-In addition to meeting all of the requirements outlined in the assignment sheet, your submission must pass the following checks mainly related to writing and the number of commits that [GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically assesses. If [GatorGrader's](https://github.com/GatorEducator/gatorgrader) automated checks pass correctly, the tool will produce the output similar to the one below.
+In addition to meeting all of the main requirements outlined in the assignment sheet, your submission must pass the following checks mainly related to writing and the number of commits that [GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically assesses. If [GatorGrader's](https://github.com/GatorEducator/gatorgrader) automated checks pass correctly, the tool will produce the output similar to the one below.
 
 ```
-✔  The report.md in writing has exactly 0 of the 'Add Your Names Here' fragment
-✔  The Application.ino in src/lab01/Application has at least 2 single-line Java comment(s)
-✔  The Application.ino in src/lab01/Application has exactly 0 of the 'TODO' fragment
-✔  The Application.ino in src/lab01/Application has exactly 1 of the 'setup(' fragment
-✔  The Application.ino in src/lab01/Application has exactly 0 of the 'Add Your Names Here' fragment
 ✔  The report.md in writing has at least 1 of the 'list' tag
-✔  The report.md in writing has exactly 9 of the 'heading' tag
-✔  The repository has at least 10 commit(s)
-✔  The file Application.ino exists in the src/lab01/Application directory
-✔  The report.md in writing has at least 200 word(s) in total
+✔  The report.md in writing has exactly 0 of the 'Add Your Names Here' fragment
+✔  The report.md in writing has at least 250 word(s) in total
+✔  The report.md in writing has exactly 7 of the 'heading' tag
 ✔  The file report.md exists in the writing directory
-✔  The Application.ino in src/lab01/Application has at least 1 of the 'loop(' fragment
 ✔  The report.md in writing has exactly 0 of the 'TODO' fragment
+✔  The repository has at least 25 commit(s)
 ```
 
 ## Receiving Assistance
