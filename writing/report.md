@@ -15,6 +15,15 @@ Describe the methodology used for your learning agent (algorithms, the goals of 
 TODO:
 Describe the performance metrics for different environment settings (different images or positions of the camera). Also, discuss the accuracy of the performance of the algorithm for your application.
 
+## Set Up
+
+TODO:
+Installations (dependencies), how to run it, etc.
+
+## References
+
+TODO
+
 ## Challenges and Learning Experiences
 
 TODO:
